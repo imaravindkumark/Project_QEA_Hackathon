@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Smoke_Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Smoke_Test(failed)" verbose="0">
+    <classes>
+      <class name="Tests.TS_HolidayHome">
+        <methods>
+          <include name="TC_initiateHolidayHomes"/>
+          <include name="TC_TravellerRating"/>
+          <include name="exitBrowser"/>
+          <include name="startTest"/>
+        </methods>
+      </class> <!-- Tests.TS_HolidayHome -->
+    </classes>
+  </test> <!-- Smoke_Test(failed) -->
+</suite> <!-- Failed suite [Smoke_Suite] -->

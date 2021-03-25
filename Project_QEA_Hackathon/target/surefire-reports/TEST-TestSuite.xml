@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="110.507" tests="20" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="15.0.1+9-18"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\HP\eclipse-workspace\Project_QEA_Hackathon"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\HP\eclipse-workspace\Project_QEA_Hackathon"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="15.0.1+9-18"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\HP\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Users\HP\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf2334058027535475056.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-15.0.1\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jdk-15.0.1/bin/server;C:/Program Files/Java/jdk-15.0.1/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Git\cmd;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\HP\AppData\Local\Microsoft\WindowsApps;C:\Users\HP\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\HP\.dotnet\tools;?D:\chromedriver.exe;;C:\Users\HP\OneDrive\Desktop;;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="59.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\HP"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="15"/>
+    <property name="user.name" value="HP"/>
+    <property name="java.class.path" value="C:\Users\HP\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.16.0.20200610-1735\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-15.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="15.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\HP\eclipse-workspace\Project_QEA_Hackathon\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2020-10-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="TC_EnterCity" classname="Tests.TS_HolidayHome" time="17.2"/>
+  <testcase name="TC_VerifyCity" classname="Tests.TS_HolidayHome" time="0.038"/>
+  <testcase name="TC_SelectCity" classname="Tests.TS_HolidayHome" time="2.721"/>
+  <testcase name="TC_ClickHolidayHomes" classname="Tests.TS_HolidayHome" time="16.063"/>
+  <testcase name="TC_InDate" classname="Tests.TS_HolidayHome" time="2.129"/>
+  <testcase name="TC_SelectCheckIn" classname="Tests.TS_HolidayHome" time="1.864"/>
+  <testcase name="TC_SelectCheckOut" classname="Tests.TS_HolidayHome" time="1.809"/>
+  <testcase name="TC_GuestOption" classname="Tests.TS_HolidayHome" time="0.237"/>
+  <testcase name="TC_ClickApply" classname="Tests.TS_HolidayHome" time="1.473"/>
+  <testcase name="TC_TravellerRating" classname="Tests.TS_HolidayHome" time="3.146">
+    <failure message="element click intercepted: Element &lt;div class=&quot;ollHTlS0&quot;&gt;...&lt;/div&gt; is not clickable at point (1272, 349). Other element would receive the click: &lt;div class=&quot;_3Sb-DGhT undefined&quot;&gt;...&lt;/div&gt;&#10;  (Session info: chrome=89.0.4389.90)&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HP-PAVILLION&apos;, ip: &apos;192.168.43.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;15.0.1&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 3094db5b3dee7ce88945784259afd104" type="org.openqa.selenium.ElementClickInterceptedException"><![CDATA[org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <div class="ollHTlS0">...</div> is not clickable at point (1272, 349). Other element would receive the click: <div class="_3Sb-DGhT undefined">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PAVILLION', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3094db5b3dee7ce88945784259afd104
+	at Tests.TS_HolidayHome.TC_TravellerRating(TS_HolidayHome.java:74)
+]]></failure>
+  </testcase>
+  <testcase name="TC_Elevator" classname="Tests.TS_HolidayHome" time="1.664"/>
+  <testcase name="TC_PrintOutput" classname="Tests.TS_HolidayHome" time="0.441"/>
+  <testcase name="TC_ClickCruise" classname="Tests.TS_Cruise" time="8.257"/>
+  <testcase name="TC_CruiseType" classname="Tests.TS_Cruise" time="2.763"/>
+  <testcase name="TC_SelectCruiseVar" classname="Tests.TS_Cruise" time="2.739"/>
+  <testcase name="TC_ClickSub" classname="Tests.TS_Cruise" time="0.615"/>
+  <testcase name="TC_GetDetails" classname="Tests.TS_Cruise" time="3.96"/>
+  <testcase name="TC_Negative1" classname="Tests.TS_HolidayHomesInvalid" time="12.082"/>
+  <testcase name="TC_Negative2" classname="Tests.TS_HolidayHomesInvalid" time="6.166"/>
+  <testcase name="TC_Negative3" classname="Tests.TS_HolidayHomesInvalid" time="5.55"/>
+</testsuite>

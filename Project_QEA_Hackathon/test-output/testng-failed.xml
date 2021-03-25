@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Smoke_Suite]">
+  <test thread-count="5" name="Smoke_Test(failed)">
+    <classes>
+      <class name="Tests.Test_Cruise_Functionality">
+        <methods>
+          <include name="TC_CruiseType"/>
+          <include name="startTest"/>
+          <include name="TC_ClickSub"/>
+          <include name="exitBrowser"/>
+          <include name="TC_SelectCruiseVar"/>
+          <include name="TC_GetDetails"/>
+          <include name="TC_InitiateCruise"/>
+          <include name="TC_ClickCruise"/>
+        </methods>
+      </class> <!-- Tests.Test_Cruise_Functionality -->
+      <class name="Tests.Test_HolidayHome_Functionality">
+        <methods>
+          <include name="TC_VerifyCity"/>
+          <include name="TC_SelectCheckOut"/>
+          <include name="startTest"/>
+          <include name="TC_ClickApply"/>
+          <include name="TC_ClickHolidayHomes"/>
+          <include name="TC_InitiateHolidayHomes"/>
+          <include name="TC_SelectCity"/>
+          <include name="TC_GuestOption"/>
+          <include name="TC_PrintOutput"/>
+          <include name="TC_TravellerRating"/>
+          <include name="TC_Elevator"/>
+          <include name="TC_EnterCity"/>
+          <include name="exitBrowser"/>
+          <include name="TC_InDate"/>
+          <include name="TC_SelectCheckIn"/>
+        </methods>
+      </class> <!-- Tests.Test_HolidayHome_Functionality -->
+    </classes>
+  </test> <!-- Smoke_Test(failed) -->
+</suite> <!-- Failed suite [Smoke_Suite] -->

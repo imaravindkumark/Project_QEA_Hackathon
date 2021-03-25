@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="22" passed="19" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-18T17:17:00 IST" name="Suite" finished-at="2021-03-18T17:17:00 IST" duration-ms="0">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite started-at="2021-03-18T17:15:22 IST" name="Smoke_Suite" finished-at="2021-03-18T17:16:29 IST" duration-ms="67148">
+    <groups>
+    </groups>
+    <test started-at="2021-03-18T17:15:22 IST" name="Smoke_Test" finished-at="2021-03-18T17:16:29 IST" duration-ms="67148">
+      <class name="Tests.TS_Cruise">
+        <test-method is-config="true" signature="TC_initiateCourse()[pri:0, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:15:22 IST" name="TC_initiateCourse" finished-at="2021-03-18T17:15:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateCourse -->
+        <test-method signature="TC_ClickCruise()[pri:13, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:16:11 IST" name="TC_ClickCruise" finished-at="2021-03-18T17:16:19 IST" duration-ms="8257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ClickCruise -->
+        <test-method signature="TC_CruiseType()[pri:14, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:16:19 IST" name="TC_CruiseType" finished-at="2021-03-18T17:16:22 IST" duration-ms="2763" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_CruiseType -->
+        <test-method signature="TC_SelectCruiseVar()[pri:15, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:16:22 IST" name="TC_SelectCruiseVar" finished-at="2021-03-18T17:16:25 IST" duration-ms="2738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SelectCruiseVar -->
+        <test-method signature="TC_ClickSub()[pri:16, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:16:25 IST" name="TC_ClickSub" finished-at="2021-03-18T17:16:25 IST" duration-ms="615" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ClickSub -->
+        <test-method signature="TC_GetDetails()[pri:17, instance:Tests.TS_Cruise@4802796d]" started-at="2021-03-18T17:16:25 IST" name="TC_GetDetails" finished-at="2021-03-18T17:16:29 IST" duration-ms="3960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GetDetails -->
+      </class> <!-- Tests.TS_Cruise -->
+      <class name="Tests.TS_HolidayHome">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:10 IST" name="startTest" finished-at="2021-03-18T17:15:22 IST" duration-ms="12376" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="TC_initiateHolidayHomes()[pri:0, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:22 IST" name="TC_initiateHolidayHomes" finished-at="2021-03-18T17:15:22 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateHolidayHomes -->
+        <test-method signature="TC_EnterCity()[pri:1, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:22 IST" name="TC_EnterCity" finished-at="2021-03-18T17:15:39 IST" duration-ms="17198" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_EnterCity -->
+        <test-method signature="TC_VerifyCity()[pri:2, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:39 IST" name="TC_VerifyCity" finished-at="2021-03-18T17:15:39 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_VerifyCity -->
+        <test-method signature="TC_SelectCity()[pri:3, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:39 IST" name="TC_SelectCity" finished-at="2021-03-18T17:15:42 IST" duration-ms="2720" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SelectCity -->
+        <test-method signature="TC_ClickHolidayHomes()[pri:4, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:42 IST" name="TC_ClickHolidayHomes" finished-at="2021-03-18T17:15:58 IST" duration-ms="16062" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ClickHolidayHomes -->
+        <test-method signature="TC_InDate()[pri:5, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:15:58 IST" name="TC_InDate" finished-at="2021-03-18T17:16:00 IST" duration-ms="2129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_InDate -->
+        <test-method signature="TC_SelectCheckIn()[pri:6, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:00 IST" name="TC_SelectCheckIn" finished-at="2021-03-18T17:16:02 IST" duration-ms="1865" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SelectCheckIn -->
+        <test-method signature="TC_SelectCheckOut()[pri:7, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:02 IST" name="TC_SelectCheckOut" finished-at="2021-03-18T17:16:04 IST" duration-ms="1809" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_SelectCheckOut -->
+        <test-method signature="TC_GuestOption()[pri:8, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:04 IST" name="TC_GuestOption" finished-at="2021-03-18T17:16:04 IST" duration-ms="238" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GuestOption -->
+        <test-method signature="TC_ClickApply()[pri:9, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:04 IST" name="TC_ClickApply" finished-at="2021-03-18T17:16:06 IST" duration-ms="1473" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_ClickApply -->
+        <test-method signature="TC_TravellerRating()[pri:10, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:06 IST" name="TC_TravellerRating" finished-at="2021-03-18T17:16:09 IST" duration-ms="3140" status="FAIL">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+            <message>
+              <![CDATA[element click intercepted: Element <div class="ollHTlS0">...</div> is not clickable at point (1272, 349). Other element would receive the click: <div class="_3Sb-DGhT undefined">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PAVILLION', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3094db5b3dee7ce88945784259afd104]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="ollHTlS0">...</div> is not clickable at point (1272, 349). Other element would receive the click: <div class="_3Sb-DGhT undefined">...</div>
+  (Session info: chrome=89.0.4389.90)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HP-PAVILLION', ip: '192.168.43.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\HP\AppData\Local\T...}, goog:chromeOptions: {debuggerAddress: localhost:59150}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 3094db5b3dee7ce88945784259afd104
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+at pages.HolidayHome.travellerRating(HolidayHome.java:416)
+at Tests.TS_HolidayHome.TC_TravellerRating(TS_HolidayHome.java:74)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1182)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:281)
+at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:121)
+at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_TravellerRating -->
+        <test-method signature="TC_Elevator()[pri:11, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:09 IST" name="TC_Elevator" finished-at="2021-03-18T17:16:11 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Elevator -->
+        <test-method signature="TC_PrintOutput()[pri:12, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:11 IST" name="TC_PrintOutput" finished-at="2021-03-18T17:16:11 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_PrintOutput -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:Tests.TS_HolidayHome@7b98f307]" started-at="2021-03-18T17:16:29 IST" name="exitBrowser" finished-at="2021-03-18T17:16:30 IST" duration-ms="960" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- Tests.TS_HolidayHome -->
+    </test> <!-- Smoke_Test -->
+  </suite> <!-- Smoke_Suite -->
+  <suite started-at="2021-03-18T17:16:35 IST" name="Regression_Suite" finished-at="2021-03-18T17:16:59 IST" duration-ms="23800">
+    <groups>
+    </groups>
+    <test started-at="2021-03-18T17:16:35 IST" name="Regresion_Test" finished-at="2021-03-18T17:16:59 IST" duration-ms="23800">
+      <class name="Tests.TS_HolidayHomesInvalid">
+        <test-method is-config="true" signature="startTest()[pri:0, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:30 IST" name="startTest" finished-at="2021-03-18T17:16:35 IST" duration-ms="4773" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTest -->
+        <test-method is-config="true" signature="TC_initiateHolidayHomesInvalid()[pri:0, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:35 IST" name="TC_initiateHolidayHomesInvalid" finished-at="2021-03-18T17:16:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_initiateHolidayHomesInvalid -->
+        <test-method signature="TC_Negative1()[pri:18, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:35 IST" name="TC_Negative1" finished-at="2021-03-18T17:16:47 IST" duration-ms="12082" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative1 -->
+        <test-method signature="TC_Negative2()[pri:19, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:47 IST" name="TC_Negative2" finished-at="2021-03-18T17:16:53 IST" duration-ms="6165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative2 -->
+        <test-method signature="TC_Negative3()[pri:20, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:53 IST" name="TC_Negative3" finished-at="2021-03-18T17:16:59 IST" duration-ms="5549" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Negative3 -->
+        <test-method is-config="true" signature="exitBrowser()[pri:0, instance:Tests.TS_HolidayHomesInvalid@34e9fd99]" started-at="2021-03-18T17:16:59 IST" name="exitBrowser" finished-at="2021-03-18T17:17:00 IST" duration-ms="823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exitBrowser -->
+      </class> <!-- Tests.TS_HolidayHomesInvalid -->
+    </test> <!-- Regresion_Test -->
+  </suite> <!-- Regression_Suite -->
+</testng-results>
